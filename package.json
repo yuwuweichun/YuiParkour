@@ -28,5 +28,16 @@
     "@vitejs/plugin-vue": "^5.1.4",
     "electron": "^33.0.2",
     "vite": "^5.4.8"
+  },
+  "build": {
+    "appId": "com.yuwuweichun.YuiParkour",
+    "productName": "YuiParkour",
+    "description": "A Yui Parkour game inspired by the Chrome DINO game.",
+    "author": "SongChun",
+    "win": {
+      "target": [
+        "squirrel"
+      ]
+    }
   }
 }
