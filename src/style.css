@@ -1,0 +1,4 @@
+/* 隐藏整个网页的滚动条 */
+body::-webkit-scrollbar {
+    display: none;
+}
