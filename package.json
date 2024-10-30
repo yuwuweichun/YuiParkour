@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:gh": "set BASE=/YuiParkour/ && set OUT_DIR=dist_for_gh_pages && vite build",
     "preview": "vite preview",
     "start": "electron-forge start",
     "package": "electron-forge package",
