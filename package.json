@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:gh": "set BASE=/YuiParkour/ && set OUT_DIR=dist_for_gh_pages && vite build",
+    "build:gh": "cross-env BASE='/YuiParkour/' OUT_DIR='dist_for_gh_pages' vite build",
     "preview": "vite preview",
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -28,6 +28,7 @@
     "@electron-forge/plugin-fuses": "^7.5.0",
     "@electron/fuses": "^1.8.0",
     "@vitejs/plugin-vue": "^5.1.4",
+    "cross-env": "^7.0.3",
     "electron": "^33.0.2",
     "vite": "^5.4.8"
   },
